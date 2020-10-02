@@ -34,6 +34,7 @@ watch:
   namespace: "" # if the namespace is empty, it will watch the entire cluster
 
 certs:
+  apiVersion: cert-manager.io/v1alpha2 # Upgrade to cert-manager.io/v1 
   legacyApi: false
 
 dex:

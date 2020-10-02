@@ -2,7 +2,7 @@
   {{- if .Values.certs.legacyApi }}
 apiVersion: certmanager.k8s.io/v1alpha1
   {{- else }}
-apiVersion: cert-manager.io/v1alpha2
+apiVersion: {{ .Values.certs.apiVersion }}
   {{- end }}
 kind: Certificate
 metadata:
