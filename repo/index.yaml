@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  sso-operator:
+  - apiVersion: v1
+    appVersion: 1.2.20
+    created: "2020-12-15T17:34:11.342539006Z"
+    description: A Helm chart for sso-operator
+    digest: 1e0db349c193701b6ff67257c284457bb3b676b94ef2cb8492da671ba073976f
+    icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/d273e09/images/go.png
+    name: sso-operator
+    urls:
+    - https://github.com/Dokify/sso-operator/releases/download/sso-operator-1.2.20/sso-operator-1.2.20.tgz
+    version: 1.2.20
+generated: "2020-12-15T17:34:10.975711088Z"
